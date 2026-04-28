@@ -6,7 +6,7 @@
 <!-- ===== TYPING ANIMATION ===== -->
 <p align="center">
   <a href="https://github.com/chava1324">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=Bienvenido+a+mi+perfil+%F0%9F%9A%80;Desarrollador+en+formaci%C3%B3n+%F0%9F%92%BB;Apasionado+por+la+tecnolog%C3%ADa+%E2%9A%A1;Siempre+aprendiendo+algo+nuevo+%F0%9F%93%9A" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=Bienvenido+a+mi+perfil+%F0%9F%9A%80;Full-Stack+Developer+%F0%9F%92%BB;Laravel+%2B+React+lover+%E2%9A%9B%EF%B8%8F;Siempre+aprendiendo+algo+nuevo+%F0%9F%93%9A" alt="Typing SVG" />
   </a>
 </p>
 
@@ -20,35 +20,75 @@
 
 ## 🧑‍💻 Sobre mí
 
-```python
-class Chava:
-    def __init__(self):
-        self.nombre      = "Chava"
-        self.usuario     = "chava1324"
-        self.rol         = "Desarrollador 🚀"
-        self.lenguajes   = ["Español 🇲🇽", "English 🇺🇸"]
-        self.aprendiendo = ["Python", "JavaScript", "Git & GitHub"]
-        self.hobbies     = ["💻 Programar", "🎮 Gaming", "🎵 Música"]
+```jsx
+import React, { useState } from "react";
 
-    def saludar(self):
-        print("¡Gracias por pasarte por mi perfil! ⭐")
+const AboutMe = () => {
+  const [chava] = useState({
+    nombre:   "Chava",
+    usuario:  "chava1324",
+    rol:      "Full-Stack Developer 🚀",
+    stack:    ["Laravel", "React", "PHP", "JavaScript"],
+    hobbies:  ["💻 Programar", "🎮 Gaming", "🎵 Música"],
+    email:    "tucorreo@example.com",
+  });
 
-yo = Chava()
-yo.saludar()
+  const saludar = () => `¡Hola! Soy ${chava.nombre}, gracias por pasarte ⭐`;
+
+  return (
+    <section className="profile">
+      <h1>👋 {saludar()}</h1>
+
+      <ul>
+        <li>🔭 Trabajando con <b>Laravel + React</b> en proyectos full-stack</li>
+        <li>🌱 Profundizando en <b>arquitecturas escalables y APIs</b></li>
+        <li>👯 Abierto a colaborar en <b>proyectos open source</b></li>
+        <li>💬 Pregúntame sobre <b>{chava.stack.join(", ")}</b></li>
+        <li>⚡ Fun fact: <b>El café es mi mejor amigo ☕</b></li>
+      </ul>
+
+      <footer>
+        <small>{`<${chava.usuario} /> con ❤️`}</small>
+      </footer>
+    </section>
+  );
+};
+
+export default AboutMe;
 ```
-
-- 🔭 Actualmente trabajando en **proyectos personales**
-- 🌱 Aprendiendo **nuevas tecnologías cada día**
-- 👯 Quiero colaborar en **proyectos open source**
-- 💬 Pregúntame sobre **cualquier cosa que sepa**
-- ⚡ Fun fact: **El café es mi mejor amigo ☕**
 
 ---
 
 ## 🛠️ Mi Stack Tecnológico
 
+### 🎨 Frontend
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,git,github,vscode,linux,bash,md&perline=11" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,bootstrap,sass&perline=10" />
+</p>
+
+### ⚙️ Backend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,python,java,nestjs&perline=10" />
+</p>
+
+### 🗄️ Bases de datos
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,redis&perline=10" />
+</p>
+
+### 🧰 Herramientas & DevOps
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,bash,vscode,postman,figma,vercel,netlify&perline=10" />
+</p>
+
+---
+
+## 🎵 Lo que estoy escuchando ahora mismo
+
+<p align="center">
+  <a href="https://open.spotify.com/user/TU_USER_ID">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=TU_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0D1117&interchange=true&bar_color=00f7ff&bar_color_cover=true" alt="Spotify Now Playing" />
+  </a>
 </p>
 
 ---
@@ -98,6 +138,7 @@ yo.saludar()
 
 ---
 
+<!-- ===== FOOTER ===== -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
 </p>
