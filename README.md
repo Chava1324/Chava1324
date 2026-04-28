@@ -30,7 +30,7 @@ const AboutMe = () => {
     rol:      "Full-Stack Developer 🚀",
     stack:    ["Laravel", "React", "PHP", "JavaScript"],
     hobbies:  ["💻 Programar", "🎮 Gaming", "🎵 Música"],
-    email:    "tucorreo@example.com",
+    email:    "salvadorhdz1324.com",
   });
 
   const saludar = () => `¡Hola! Soy ${chava.nombre}, gracias por pasarte ⭐`;
@@ -81,17 +81,6 @@ export default AboutMe;
   <img src="https://skillicons.dev/icons?i=git,github,docker,linux,bash,vscode,postman,figma,vercel,netlify&perline=10" />
 </p>
 
----
-
-## 🎵 Lo que estoy escuchando ahora mismo
-
-<p align="center">
-  <a href="https://open.spotify.com/user/TU_USER_ID">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=TU_USER_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0D1117&interchange=true&bar_color=00f7ff&bar_color_cover=true" alt="Spotify Now Playing" />
-  </a>
-</p>
-
----
 
 ## 📊 Estadísticas de GitHub
 
@@ -122,21 +111,6 @@ export default AboutMe;
 
 ---
 
-## 🌐 Conecta conmigo
-
-<p align="center">
-  <a href="https://github.com/chava1324">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="mailto:tucorreo@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
 
 <!-- ===== FOOTER ===== -->
 <p align="center">
