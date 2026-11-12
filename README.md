@@ -1,122 +1,80 @@
-<!-- ===== BANNER ANIMADO ===== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=%C2%A1Hola%2C%20soy%20Chava!%20%F0%9F%91%8B&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38" />
-</p>
-
-<!-- ===== TYPING ANIMATION ===== -->
-<p align="center">
-  <a href="https://github.com/chava1324">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=00F7FF&center=true&vCenter=true&width=600&lines=Bienvenido+a+mi+perfil+%F0%9F%9A%80;Full-Stack+Developer+%F0%9F%92%BB;Laravel+%2B+React+lover+%E2%9A%9B%EF%B8%8F;Siempre+aprendiendo+algo+nuevo+%F0%9F%93%9A" alt="Typing SVG" />
-  </a>
-</p>
-
-<!-- ===== CONTADOR DE VISITAS ===== -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chava1324&label=Visitas%20al%20perfil&color=00f7ff&style=for-the-badge" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/chava1324?label=Seguidores&style=for-the-badge&color=00f7ff" alt="followers" />
-</p>
-
----
-
-## 🧑‍💻 Sobre mí
-
-```jsx
-import React, { useState } from "react";
-
-const AboutMe = () => {
-  const [chava] = useState({
-    nombre:   "Chava",
-    usuario:  "chava1324",
-    rol:      "Full-Stack Developer 🚀",
-    stack:    ["Laravel", "React", "PHP", "JavaScript"],
-    hobbies:  ["💻 Programar", "🎮 Gaming", "🎵 Música"],
-    email:    "salvadorhdz1324.com",
-  });
-
-  const saludar = () => `¡Hola! Soy ${chava.nombre}, gracias por pasarte ⭐`;
-
-  return (
-    <section className="profile">
-      <h1>👋 {saludar()}</h1>
-
-      <ul>
-        <li>🔭 Trabajando con <b>Laravel + React</b> en proyectos full-stack</li>
-        <li>🌱 Profundizando en <b>arquitecturas escalables y APIs</b></li>
-        <li>👯 Abierto a colaborar en <b>proyectos open source</b></li>
-        <li>💬 Pregúntame sobre <b>{chava.stack.join(", ")}</b></li>
-        <li>⚡ Fun fact: <b>El café es mi mejor amigo ☕</b></li>
-      </ul>
-
-      <footer>
-        <small>{`<${chava.usuario} /> con ❤️`}</small>
-      </footer>
-    </section>
-  );
-};
-
-export default AboutMe;
-```
-
----
-
-## 🛠️ Mi Stack Tecnológico
-
-### 🎨 Frontend
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,bootstrap,sass&perline=10" />
-</p>
-
-### ⚙️ Backend
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,express,python,java,nestjs&perline=10" />
-</p>
-
-### 🗄️ Bases de datos
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,redis&perline=10" />
-</p>
-
-### 🧰 Herramientas & DevOps
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,bash,vscode,postman,figma,vercel,netlify&perline=10" />
-</p>
-
-
-## 📊 Estadísticas de GitHub
+<h1 align="center">Heriberto Salvador Hernández García</h1>
+<p align="center"><strong>Ingeniero de Software e Inteligencia Artificial Aplicada</strong></p>
+<p align="center">Software empresarial · Asistentes con IA · Automatización · Sistemas industriales</p>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=chava1324&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00f7ff&icon_color=00f7ff" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chava1324&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00f7ff" />
+  <a href="https://github.com/Chava1324/Chava1324/raw/refs/heads/main/cv/CV_Heriberto_Salvador.pdf"><img src="https://img.shields.io/badge/Descargar_CV-PDF-2563EB?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Descargar mi CV en PDF" /></a>
+  <a href="mailto:salvadorhdz1324@gmail.com"><img src="https://img.shields.io/badge/Hablemos-Email-0F766E?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Contactar por correo" /></a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chava1324&theme=tokyonight&hide_border=true&background=0D1117&ring=00f7ff&fire=00f7ff&currStreakLabel=00f7ff" />
-</p>
+## Sobre mí
 
----
+Soy Chava, ingeniero en Sistemas Computacionales titulado, ubicado en Arandas, Jalisco, México. Construyo aplicaciones empresariales y soluciones de inteligencia artificial aplicada a problemas de operación.
 
-## 🏆 Trofeos
+Como **único desarrollador en Bolsas de los Altos**, llevo los sistemas desde el levantamiento de requisitos y la arquitectura hasta las pruebas, el despliegue y el mantenimiento. Trabajo con RH, Dirección, jefaturas y personal operativo para convertir procesos manuales en herramientas útiles.
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chava1324&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</p>
+Mi experiencia combina desarrollo fullstack, integración de modelos de lenguaje, automatización e infraestructura. En las soluciones con IA trabajo con herramientas autorizadas, validación de acciones, evaluación de flujos y manejo de fallos.
 
----
+## Experiencia y proyectos destacados
 
-## 🐍 Mis contribuciones
+**Bolsas de los Altos · Fullstack Engineer**  
+Diciembre de 2025 — Actualidad
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
+### DALIA · Asistente con IA para soporte
+Asistente integrada en una plataforma Laravel con la API de Claude: **34 capacidades en cinco módulos**, disponibles según los permisos del usuario desde la aplicación y WhatsApp. Implementé controles de ejecución y alternativas ante fallos del modelo o de la API.
 
----
+Evalué flujos con mensajes históricos, etiquetado humano y pruebas con límites de gasto. También participé en la migración de **3,820 tickets históricos**, con un cambio de sistema ensayado y procedimiento de reversión.
 
+### Mantenimiento por WhatsApp · Automatización conversacional
+Sistema de órdenes de trabajo con entradas desde WhatsApp, kiosko y panel. Integré **OpenAI, n8n y Whisper** para estructurar reportes, validar datos contra catálogos, prevenir duplicados y gestionar el seguimiento por roles, estados y evidencias.
 
-<!-- ===== FOOTER ===== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
-</p>
+### SIA 2.0 · Plataforma de sistemas internos
+Portal con autenticación, permisos y servicios compartidos. Automaticé el aprovisionamiento y despliegue de aplicaciones mediante Git sobre **Windows Server e IIS**, con Redis, notificaciones y supervisión de tareas.
 
-<p align="center">
-  <i>⭐ Si te gustó mi perfil, ¡no olvides seguirme! ⭐</i>
-</p>
+### Tempus · Control de tiempo y asistencia
+Diseñé y construí una plataforma para digitalizar asistencia, turnos, permisos y vacaciones, sustituyendo procesos en papel y Excel. Desarrollé la interfaz con **React y TypeScript**, sobre un backend PHP compatible con infraestructura heredada, con trazabilidad e integración con RH y prenómina.
+
+### Detek · Monitoreo industrial y OEE
+Sistema **en desarrollo** que conecta sensores ESP32 con firmware propio, ingesta persistente, procesamiento en cola y tableros en tiempo real. Recibe datos de cuatro dispositivos en planta; la expansión, calibración y aceptación formal continúan en desarrollo.
+
+### Comedor e insumos de higiene · Operación diaria
+Modernicé la operación del comedor e incorporé kiosko, tablet, control de existencias y trazabilidad de entregas de cofias y cubrebocas. El **módulo de insumos** pasó de solicitud a producción y capacitación en **una semana**, aprovechando la plataforma existente.
+
+**Pernod Ricard México · Practicante, proyecto SIGAR**  
+Febrero — Diciembre de 2025
+
+Implementé un sistema de gestión de almacén de refacciones con **Power Platform**, flujos de compra y registro con **Power Automate**, y tableros de existencias, consumo e indicadores con **Power BI**.
+
+## Tecnologías que aplico
+
+| Área | Tecnologías y prácticas |
+| --- | --- |
+| IA aplicada | APIs de Claude y OpenAI, tool calling, n8n, Whisper, validación de salidas y evaluación de flujos |
+| Desarrollo | PHP, Laravel, React, TypeScript, APIs REST y contratos de integración |
+| Datos e infraestructura | MySQL, SQL, Redis, Windows Server, IIS y despliegues con Git |
+| Calidad | PHPUnit, Vitest, Playwright, pruebas de regresión y controles de concurrencia |
+| Automatización y análisis | Power Platform, Power Automate y Power BI |
+| Sistemas industriales | ESP32, firmware, ingesta de sensores y monitoreo OEE |
+
+## Cómo trabajo
+
+- Me involucro en el ciclo completo: requisitos, decisiones técnicas, desarrollo, entrega y mantenimiento.
+- Traduzco necesidades del negocio a reglas y soluciones concretas.
+- Reproduzco incidentes y verifico las correcciones con evidencia.
+- Documento especificaciones, contratos y procedimientos de entrega.
+- Incorporo retroalimentación de los usuarios para mejorar los sistemas.
+
+## Formación e idiomas
+
+**Ingeniería en Sistemas Computacionales · Titulado**  
+Tecnológico Superior de Jalisco, Campus Arandas · 2021–2025
+
+Español nativo · Inglés B2
+
+## Contacto
+
+Abierto a oportunidades profesionales y proyectos independientes de software, IA aplicada y automatización.
+
+**[salvadorhdz1324@gmail.com](mailto:salvadorhdz1324@gmail.com)** · Arandas, Jalisco, México
+
+[Descargar CV en PDF](https://github.com/Chava1324/Chava1324/raw/refs/heads/main/cv/CV_Heriberto_Salvador.pdf)
